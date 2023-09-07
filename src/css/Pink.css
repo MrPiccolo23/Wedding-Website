@@ -1,0 +1,49 @@
+/* pink color style */
+.btn-1:hover,
+.time-section .time-item i,
+.time-section .time-text h3,
+.menu-section .menu-filter a .filter-btn:hover,
+.ceremony-section .ceremony-item-inner span,
+.ceremony-section .ceremony-item  .event-item-inner .social-links a i,
+.ceremony-section .ceremony-item-inner .ceremony-filter a .filter-btn:hover,
+.event-section .event-item  .event-item-inner .social-links a i,
+.event-section .event-item-inner span,
+.story-section .story-item i,
+.story-section .story-text h3,
+.couple-section .couple .social-links a i,
+.couple-section .couple .fa-heart,
+.couple-section .couple h5,
+.couple-section .couple h3,
+.couple-section .couple h4,
+.mobile-nav ul li a:active,
+.mobile-nav ul li a:hover,
+.header .nav ul li a.active,
+.header .nav ul li a:hover{
+    /* color: #fb839e; */
+    color: #b2afa2;
+}
+
+
+.btn-1,
+.menu-section .menu-filter a .filter-btn,
+.ceremony-section .ceremony-item-inner .ceremony-filter a .filter-btn,
+.ceremony-section .ceremony-item-inner:before,
+.ceremony-section .ceremony-item-inner .social-links a i,
+.event-section .event-item-inner:before,
+.event-section .event-item-inner .social-links a i,
+.couple-section .couple .social-links a i,
+.couple-section .couple img{
+    border-color: #b2afa2;
+    
+}
+
+.btn-1,
+.menu-section .menu-filter a .filter-btn,
+.ceremony-section .ceremony-item  .ceremony-item-inner .social-links a:hover i,
+.ceremony-section .ceremony-item-inner .ceremony-filter a .filter-btn,
+.event-section .event-item-inner .social-links a:hover i,
+.couple-section .couple .social-links a:hover i{
+    background-color: #b2afa2;
+    
+}
+
