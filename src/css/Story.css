@@ -191,15 +191,18 @@ footer{
 
 @media(min-width: 3840px){
     .flex-container img {
-        width: 25%;  /* or any other value that fits your design */
-        height: auto;  /* maintain aspect ratio */
+        width: 25%;  
+        height: auto;  
+    }
+    .story-section{
+        padding: 10rem 0 130rem !important;
     }
 }
 
 @media(min-width: 2560px){
     .flex-container img {
-        width: 30%;  /* or any other value that fits your design */
-        height: auto;  /* maintain aspect ratio */
+        width: 30%;  
+        height: auto;  
     }
 }
 

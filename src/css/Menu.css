@@ -271,7 +271,7 @@ footer{
 /* Large Screen Styles */
 @media (min-width: 3840px){
     .menu-section{
-        padding: 6rem 0 30rem;
+        padding: 6rem 0 30rem !important;
     }
 }
 
