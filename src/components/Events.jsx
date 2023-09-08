@@ -78,7 +78,7 @@ const Event = () => {
                         <div className='event-item-inner'>
                             <h3>New Wiggle Farmhouse</h3>
                             <p>Triple room with private bathroom
-                                From £154 for 2 people, or £171 for 3 people, for 2 nights
+                                From £154 for 2 people, or £171 for 3 people, for 2 nights.
                                 5 minute drive, 21 minute walk</p>
                             <p> Farmhouse, Millbrook, New Wiggle PL10 1JD.</p>
                             <img src={Venue4 } alt="event"/>
@@ -107,7 +107,7 @@ const Event = () => {
                 </div>
                 <div className='row'>
                     <div className='section-title'>
-                        <p>Other options are available through booking websites and airbnb</p>
+                        <p className='para'>For other options, search for places near 'Rame' on booking websites and airbnb</p>
                     </div>
                 </div>
             </div>
