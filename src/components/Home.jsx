@@ -22,7 +22,7 @@ const Home = () => {
                             <div className='home-content'>
                                 <p>We're Getting Married</p>
                                 <h1>Yaseen & Tutku</h1>
-                                <span>25 July 2024</span>
+                                <span>25th July 2024</span>
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ const Home = () => {
                             <div className='home-content'>
                                 <p>We're Getting Married</p>
                                 <h1>Yaseen & Tutku</h1>
-                                <span>25 July 2024</span>
+                                <span>25th July 2024</span>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const Home = () => {
                             <div className='home-content'>
                                 <p>We're Getting Married</p>
                                 <h1>Yaseen & Tutku</h1>
-                                <span>25 July 2024</span>
+                                <span>25th July 2024</span>
                             </div>
                         </div>
                     </div>
