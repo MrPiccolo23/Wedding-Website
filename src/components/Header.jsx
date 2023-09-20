@@ -16,7 +16,8 @@ const Header = () => {
         { id: 4, link: 'timeline', name: 'TimeLine' },
         { id: 5, link: 'menu', name: 'Menu' },
         { id: 7, link: 'accommodation', name: 'Accommodation' },
-        { id: 8, link: 'rsvp', name: 'RSVP' }
+        { id: 8, link: 'transport', name: 'Transport' },
+        { id: 9, link: 'rsvp', name: 'RSVP' }
     ];
 
     useEffect(() => {

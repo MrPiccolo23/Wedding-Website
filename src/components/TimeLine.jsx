@@ -13,7 +13,7 @@ const time = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='section-title'>
-                        <h2>Timeline of Events</h2>
+                        <h2>Wedding Day Timeline</h2>
                     </div>
                 </div>
                 <div className='row'>

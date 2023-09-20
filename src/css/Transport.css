@@ -75,16 +75,16 @@ footer{
 
 }
 
-/* event section */
-.event-section{
+/* transport section */
+.transport-section{
     padding: 2rem 0 10rem;
     width: 100%;
 }
 
-.event-section .section-title h2{
+.transport-section .section-title h2{
 	color: #000000;
 }
-.event-section .event-item{
+.transport-section .transport-item{
     flex:0 0 33%;
     max-width: 33%;
     padding:15px;
@@ -92,35 +92,28 @@ footer{
     flex-wrap: wrap;
 }
 
-.section-title .para{
-    font-size: 20px;
-    margin-top: 20px;
-}
-.event-section .event-item:nth-child(2){
+.transport-section .transport-item:nth-child(2){
 	transform: translateY(0px);
 }
-.event-section .event-item-inner{
-	background-color: #ffffff;
-	padding:60px 45px 40px;
+.transport-section .transport-item-inner{
+	padding:0px 45px 40px;
 	text-align: center;
-	box-shadow: 0 0 10px #888888;
 	flex:0 0 100%;
 	max-width: 100%;
 	position: relative;
 	z-index: 1;
 }
 
-.event-section .event-item-inner:before{
+.transport-section .transport-item-inner:before{
 	content: '';
 	position: absolute;
 	left:15px;
 	top:15px;
 	right: 15px;
 	bottom: 15px;
-	border:5px solid #b2afa2;
 	z-index: -1;
 }
-.event-section .event-item-inner h3{
+.transport-section .transport-item-inner h3{
 	color: #000000;
 	font-weight: 500;
 	font-size: 24px;
@@ -130,77 +123,32 @@ footer{
 	padding-bottom: 5px;
 	display: inline-block;
 }
-.event-section .event-item-inner span{
-	display: block;
-	font-weight: 500;
-	font-size: 16px;
-}
-.event-section .event-item-inner span.time{
+
+.transport-section .transport-item-inner span.time{
 	margin-bottom: 15px;
 }
-.event-section .event-item-inner p{
-	font-size: 14px;
-	line-height: 26px;
+.transport-section .transport-item-inner p{
+	font-size: 18px;
+	line-height: 30px;
 	color: #555555;
 	margin:0;
 }
-.event-section .event-item-inner img{
-    position: relative; 
-	width: 200px;
-	left: auto;
-	bottom: auto;
-	z-index: auto;
-	margin: 20px auto;
-}
 
-.event-section .event-item .event-item-inner .social-links{
-    padding-top: 10px;
-}
-
-.event-section .event-item  .event-item-inner .social-links a{
-    display: inline-block;
-    margin: 0 4px;
-}
-.event-section .event-item  .event-item-inner .social-links a i{
-    height: 32px;
-    width: 32px;
-    line-height: 30px;
-    border: 1px solid transparent;
-    text-align: center;
-    display: block;
-    border-radius: 50%;
-    border-color: #b2afa2;
-    transition: all 0.5s ease;
-}
-
-.event-section .event-item  .event-item-inner .social-links a:hover i{
-    color: #f3f2f1;
-}
-
-.event-section .event-item.ceremony{
-    flex:0 0 10%;
-    max-width: 10%;
-}
-
-.event-section .accommodation-row .event-item.accommodation{
-    flex:0 0 33%;
-    max-width: 33%;
-}
 
 /* Responsive version */
 
 
 
 @media(max-width: 991px){
-    .event-section{
-        padding: 10rem 0 94rem;
+    .transport-section{
+        padding: 10rem 0 80rem;
     }
-    .event-section .event-item {
+    .transport-section .transport-item {
         flex: 0 0 50%;
         max-width: 50%;
     }
-    .event-section .event-item.ceremony,
-    .event-section .event-item.event-item.accommodation {
+    .transport-section .transport-item.ceremony,
+    .transport-section .transport-item.transport-item.accommodation {
         flex: 0 0 90%;
         max-width: 90%;
     }
@@ -208,69 +156,70 @@ footer{
 }
 
 @media(max-width: 767px){
-    .event-section{
-        padding: 10rem 0 150rem;
+    .transport-section{
+        padding: 10rem 0 110rem;
     }
-    .event-section .event-item {
+    .transport-section .transport-item {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .event-section .event-item:nth-child(2){
+    .transport-section .transport-item:nth-child(2){
         transform: translateY(0);
     }
 }
 
 @media(max-width: 3840px){
-    .event-section{
+    .transport-section{
 		padding: 10rem 0 30rem;
 	}
 }
 
+
 @media(min-width: 280px){
-	.event-section{
-		padding: 5rem 0 200rem !important;
+	.transport-section{
+		padding: 5rem 0 100rem !important;
 	}
 }
 
 @media(min-width: 390px){
-	.event-section{
-		padding: 5rem 0 170rem !important;
+	.transport-section{
+		padding: 5rem 0 50rem !important;
 	}
 }
 
 @media(max-width: 574px){
-	.event-section{
-		padding: 5rem 0 130rem;
+	.transport-section{
+		padding: 5rem 0 120rem;
 	}
 }
 
 @media(min-width: 412px){
-	.event-section{
-		padding: 5rem 0 140rem !important;
+	.transport-section{
+		padding: 5rem 0 20rem !important ;
 	}
 }
 
 @media(min-width: 540px){
-	.event-section{
-		padding: 5rem 0 130rem !important;
+	.transport-section{
+		padding: 5rem 0 40rem !important;
 	}
 }
 
 @media(min-width: 768px){
-    .event-section{
-        padding: 10rem 0 100rem !important;
+    .transport-section{
+        padding: 10rem 0 20rem !important;
     }
 }
 
 @media(min-width: 820px){
-    .event-section{
-        padding: 10rem 0 100rem !important;
+    .transport-section{
+        padding: 10rem 0 20rem !important;
     }
 }
 
 
 @media(min-width: 1024px){
-    .event-section{
+    .transport-section{
         padding: 10rem 0 30rem !important;
     }
 }

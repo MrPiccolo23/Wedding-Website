@@ -1,7 +1,7 @@
 import React from 'react';
 import "../css/Footer.css";
 import "../css/Pink.css";
-import couple from '../img/couple.jpg'; 
+import couple from '../img/couple2.jpg'; 
 
 const Footer = () => {
     return (
@@ -12,7 +12,7 @@ const Footer = () => {
                     <div class="couple-name">
                         <img src={couple} alt="Wedding couple"/>
                     </div>
-                    <p>Yaseen & Tutku</p>
+                    <p>We look forward to celebrating with you!</p>
                     <div className="copyright">
                     <small>
                         Built and designed by{" "}

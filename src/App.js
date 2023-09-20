@@ -6,6 +6,7 @@ import Ceremony from "./components/Ceremony.jsx";
 import TimeLine from "./components/TimeLine.jsx";
 import Menu from "./components/Menu";
 import Events from "./components/Events.jsx";
+import Transport from "./components/Transport.jsx";
 import RSVP from "./components/RSVP";
 import Footer from "./components/Footer";
 
@@ -20,6 +21,7 @@ function App() {
       <TimeLine/>
       <Menu/>
       <Events/>
+      <Transport/>
       <RSVP/>
       <Footer/>
     </div>

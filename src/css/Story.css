@@ -61,7 +61,7 @@ footer{
 }
 
 .section-title h2{
-    font-size: 45px;
+    font-size: 75px;
     color: #000000;
     font-weight: 700;
     font-family: 'Great Vibes', cursive;
@@ -74,7 +74,7 @@ footer{
 /* Story Section */
 
 .story-section{
-    padding: 7rem 0rem 120rem;
+    padding: 7rem 0rem 130rem;
     width: 100%;
 }
 
@@ -195,11 +195,14 @@ footer{
         height: auto;  
     }
     .story-section{
-        padding: 10rem 0 130rem !important;
+        padding: 10rem 0 135rem !important;
     }
 }
 
 @media(min-width: 2560px){
+    .story-section{
+        padding: 10rem 0 115rem !important;
+    }
     .flex-container img {
         width: 30%;  
         height: auto;  

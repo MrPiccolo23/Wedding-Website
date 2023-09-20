@@ -61,7 +61,7 @@ footer{
 }
 
 .section-title h2{
-    font-size: 45px;
+    font-size: 75px;
     color: #000000;
     font-weight: 700;
     font-family: 'Great Vibes', cursive;
@@ -139,6 +139,9 @@ footer{
 /* Mobile version  */
 
 @media(max-width: 767px){
+    .section-title h2{
+        font-size: 45px;
+    }
     .couple-section{
         padding: 5rem 0;
     }

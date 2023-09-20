@@ -65,7 +65,7 @@ footer{
 }
 
 .section-title h2{
-    font-size: 45px;
+    font-size: 75px;
     color: #000000;
     font-weight: 700;
     font-family: 'Great Vibes', cursive;
@@ -98,7 +98,6 @@ footer{
 
 /* rsvp section */
 .rsvp-section{
-	/* padding: 80px 0 80px; */
     padding: 5rem 0 15rem;
 }
 
