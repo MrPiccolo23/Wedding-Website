@@ -98,7 +98,7 @@ footer{
 
 /* rsvp section */
 .rsvp-section{
-    padding: 5rem 0 15rem;
+    padding: 8rem 0 23rem;
 }
 
 .rsvp-section .section-title h2,
@@ -156,6 +156,71 @@ footer{
 
 .rsvp-section .form .input-control:focus{
 	outline: none;
+}
+
+.phone-link{
+    color: blue;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.phone-link:hover {
+    color: #b2afa2; 
+}
+
+
+.whatsapp-link .fa-whatsapp{
+    display: inline-block;
+    margin:0 4px;
+    color: #b2afa2; 
+    transition: color 0.5s ease; 
+}
+
+.whatsapp-link {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    border: 1px solid #b2afa2;
+    text-align: center;
+    border-radius: 50%;
+    transition: background-color 0.5s ease; 
+    background-color: transparent; 
+}
+
+.whatsapp-link:hover .fa-whatsapp {
+    color: #ffffff; 
+}
+
+.whatsapp-link:hover {
+    background-color: #b2afa2; 
+}
+
+.email-link .fa-envelope{
+    display: inline-block;
+    margin:0 4px;
+    color: #b2afa2;
+    transition: color 0.5s ease;
+}
+
+.email-link {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    border: 1px solid #b2afa2;
+    text-align: center;
+    border-radius: 50%;
+    transition: background-color 0.5s ease;
+    background-color: transparent;
+}
+
+.email-link:hover .fa-envelope {
+    color: #ffffff;
+}
+
+.email-link:hover {
+    background-color: #b2afa2;
 }
 
 /* mobile version */

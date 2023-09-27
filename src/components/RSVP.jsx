@@ -1,6 +1,9 @@
 import React from 'react';
 import "../css/RSVP.css";
 import "../css/Pink.css";
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"; 
 
 const RSVP = () => {
     return (
@@ -9,7 +12,36 @@ const RSVP = () => {
                 <div className='row'>
                     <div className='section-title'>
                         <h2>You are invited</h2>
-                        <p>Please kindly RSVP below and let us know your choice of main, along with any questions you may have</p>
+                        <p>We hope you can make it to celebrate with us. Please let us know whether you can attend, 
+                            <br/> along with your choice of main meal as soon as possible so we can get this organised with the caterer.  
+                            <br />In addition please send us any questions you may have.</p>
+                            <br />
+                            <p>You can reach us on:
+                                <br />
+                                - Yaseen - 
+                                <a href="tel:+447814137393" className="phone-link">07814137393</a>
+                                <span style={{ margin: '0 5px' }}> | </span> 
+                                <a href="https://wa.me/447814137393" target="_blank" rel="noopener noreferrer" className="whatsapp-link">
+                                    <FontAwesomeIcon icon={faWhatsapp} />
+                                    </a>
+                                    <span style={{ margin: '0 5px' }}> | </span> 
+                                    <a href="mailto:yaseened@hotmail.co.uk" target="_blank" rel="noopener noreferrer" className="email-link">
+                                        <FontAwesomeIcon icon={faEnvelope} />
+                                        </a>
+                                        <br />
+                                        - Tutku - 
+                                        <a href="tel:+447305851842" className="phone-link">07305851842</a>
+                                        <span style={{ margin: '0 5px' }}> | </span> 
+                                        <a href="https://wa.me/447305851842" target="_blank" rel="noopener noreferrer" className="whatsapp-link">
+                                            <FontAwesomeIcon icon={faWhatsapp} />
+                                            </a>
+                                            <span style={{ margin: '0 5px' }}> | </span> 
+                                            <a href="mailto:tutkudogan2011@hotmail.co.uk" target="_blank" rel="noopener noreferrer" className="email-link">
+                                                <FontAwesomeIcon icon={faEnvelope} />
+                                                </a>
+                            </p>
+                                <br />
+                                <p>Alternatively fill in the form below to send us an email.</p>
                     </div>
                 </div>
                 <div className='row'>

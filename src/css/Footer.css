@@ -169,7 +169,7 @@ footer{
 
 /* mobile version */
 
-@media(max-width: 574px){
+@media(max-width: 574px) {
 	.section-title h2{
 		font-size: 45px;
 	}
@@ -177,9 +177,19 @@ footer{
 		width: 250px;
 		height: 300px;
 		border-radius: 48%;
+		margin-top: 0px !important;
 	}
 	.footer .footer-content p,
 	.footer .footer-content .couple-name h2{
 		font-size: 32px;
+	}
+}
+
+@media(max-width: 280px){
+	.footer .footer-content .couple-name{
+		width: 250px;
+		height: 300px;
+		border-radius: 48%;
+		margin-top: 40px !important; 
 	}
 }
