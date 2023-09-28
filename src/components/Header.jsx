@@ -34,7 +34,7 @@ const Header = () => {
 
     return (
         <header className={`header ${scrollPosition > 50 ? 'fixed' : ''}`}>
-                      <div className="container">
+                    <div className="container">
                 <div className="row align-items-center justify-content-between">
                     <div className="logo">
                         <Link to="home">Y & T</Link>

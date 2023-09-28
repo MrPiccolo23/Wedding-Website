@@ -252,17 +252,13 @@ footer{
     }
 }
 
-@media(min-width: 3840px){
+@media (min-width: 1920px) and (max-width: 2559px) {
     .story-section{
-        padding: 10rem 0 125rem !important;
-    }
-    .flex-container img {
-        width: 25%;  
-        height: auto;  
+        padding: 10rem 0 110rem !important;
     }
 }
 
-@media(min-width: 2560px){
+@media (min-width: 2560px) and (max-width: 3839px) {
     .story-section{
         padding: 10rem 0 135rem !important;
     }
@@ -272,3 +268,12 @@ footer{
     }
 } 
 
+@media (min-width: 3840px){
+    .story-section{
+        padding: 10rem 0 125rem !important;
+    }
+    .flex-container img {
+        width: 25%;  
+        height: auto;  
+    }
+}

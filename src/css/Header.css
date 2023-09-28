@@ -205,6 +205,10 @@ footer{
 	.header .nav {
 	  display: block !important;
 	}
+	.header .nav ul li a{
+		font-size: 14px;
+	}
+
   }
   
   @media (max-width: 767px) {
