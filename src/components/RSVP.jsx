@@ -12,31 +12,31 @@ const RSVP = () => {
                 <div className='row'>
                     <div className='section-title'>
                         <h2>You are invited</h2>
-                        <p>We hope you can make it to celebrate with us. Please let us know whether you can attend, 
-                            <br/> along with your choice of main meal as soon as possible so we can get this organised with the caterer.  
+                        <p>We hope you can make it to celebrate with us. Please let us know whether you can attend,
+                            <br/> along with your choice of main meal as soon as possible so we can get this organised with the caterer.
                             <br />In addition please send us any questions you may have.</p>
                             <br />
                             <p>You can reach us on:
                                 <br />
-                                - Yaseen - 
-                                <a href="tel:+447814137393" className="phone-link">07814137393</a>
+                                - Adam - 
+                                <a href="tel:+1234567890" className="phone-link">+1234567890</a>
                                 <span style={{ margin: '0 5px' }}> | </span> 
-                                <a href="https://wa.me/447814137393" target="_blank" rel="noopener noreferrer" className="whatsapp-link">
+                                <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="whatsapp-link">
                                     <FontAwesomeIcon icon={faWhatsapp} />
                                     </a>
                                     <span style={{ margin: '0 5px' }}> | </span> 
-                                    <a href="mailto:yaseened@hotmail.co.uk" target="_blank" rel="noopener noreferrer" className="email-link">
+                                    <a href="mailto:adam@example.com" target="_blank" rel="noopener noreferrer" className="email-link">
                                         <FontAwesomeIcon icon={faEnvelope} />
                                         </a>
                                         <br />
-                                        - Tutku - 
-                                        <a href="tel:+447305851842" className="phone-link">07305851842</a>
+                                        - Eve - 
+                                        <a href="tel:+0987654321" className="phone-link">+0987654321</a>
                                         <span style={{ margin: '0 5px' }}> | </span> 
-                                        <a href="https://wa.me/447305851842" target="_blank" rel="noopener noreferrer" className="whatsapp-link">
+                                        <a href="https://wa.me/0987654321" target="_blank" rel="noopener noreferrer" className="whatsapp-link">
                                             <FontAwesomeIcon icon={faWhatsapp} />
                                             </a>
                                             <span style={{ margin: '0 5px' }}> | </span> 
-                                            <a href="mailto:tutkudogan2011@hotmail.co.uk" target="_blank" rel="noopener noreferrer" className="email-link">
+                                            <a href="mailto:eve@example.com" target="_blank" rel="noopener noreferrer" className="email-link">
                                                 <FontAwesomeIcon icon={faEnvelope} />
                                                 </a>
                             </p>
@@ -46,7 +46,8 @@ const RSVP = () => {
                 </div>
                 <div className='row'>
                     <div className='rsvp-form'>
-                        <form action="https://getform.io/f/73766123-2896-4cc9-92e3-c8ea18bba956" method='POST' className='form'>
+                        {/* Removed action attribute for demo purposes */}
+                        <form method='POST' className='form'>
                             <div className='row'>
                                 <div className='input-group w50'>
                                     <input type="text" name='name' placeholder='Name' className='input-control'/>
